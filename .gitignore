@@ -1,0 +1,25 @@
+# ESP-IDF / CMake
+**/build/
+**/.vscode/
+build/
+sdkconfig.old
+
+# Component Manager（若希望由 CI/本地重新拉取依赖，可取消下一行注释）
+# **/managed_components/
+
+# 工具与系统
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.idea/
+.clangd

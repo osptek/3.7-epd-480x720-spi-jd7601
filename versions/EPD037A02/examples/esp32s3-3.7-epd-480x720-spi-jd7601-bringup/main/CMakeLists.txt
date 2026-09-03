@@ -1,0 +1,12 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "screen_driver/screen_driver.c"
+    INCLUDE_DIRS
+        "."
+        "screen_driver"
+    PRIV_REQUIRES
+        esp_driver_spi
+        esp_driver_gpio
+        esp_common
+)
